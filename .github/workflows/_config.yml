@@ -1,0 +1,7 @@
+title: 小牛皮博客
+description: 我的个人空间
+baseurl: ""
+url: "https://blog-yutubexnp.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
