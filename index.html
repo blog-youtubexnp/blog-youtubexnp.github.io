@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<main class="container">
+  <h1 class="blog-title">{{ site.title }}</h1>
+  
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+        <p>{{ post.excerpt }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</main>
